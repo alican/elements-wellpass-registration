@@ -1,6 +1,8 @@
 # elements-wellpass-registration
 
 
+Just fork this repo and set the secrets. The github actions are configured to run every day at 11 o'clock.
+
 
 To set environment secrets in GitHub, follow these steps:
 
