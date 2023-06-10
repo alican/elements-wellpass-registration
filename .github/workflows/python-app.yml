@@ -8,7 +8,14 @@ on:
     - cron:  '0 11 * * *'
     # This runs at 10:00 AM UTC each day.
     # * is a special character in YAML so you have to quote this string
-
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'test'
+      tags:
+        description: 'Test scenario tags'  
 permissions:
   contents: read
 
