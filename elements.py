@@ -2,15 +2,18 @@ import requests, os
 from bs4 import BeautifulSoup
 
 
-BASE_URL = 'https://slots.elements.com/'
-SHEET_BASE_URL = BASE_URL + 'sheet.php'
-SHEET_URL = SHEET_BASE_URL + '?studio_id=62'
 
 try:
     ELEMENTS_EMAIL = os.environ["ELEMENTS_EMAIL"]
     ELEMENTS_PASSWORD = os.environ["ELEMENTS_PASSWORD"]
+    ELEMENTS_STUDIO_ID os.environ.get('ELEMENTS_STUDIO_ID', 62)
 except KeyError:
     raise Exception('Please set the environment variables ELEMENTS_EMAIL and ELEMENTS_PASSWORD')
+    
+BASE_URL = 'https://slots.elements.com/'
+SHEET_BASE_URL = BASE_URL + 'sheet.php'
+SHEET_URL = SHEET_BASE_URL + '?studio_id=' + ELEMENTS_STUDIO_ID
+
 
 
 headers = {'User-Agent': 'Mozilla/5.0'}
