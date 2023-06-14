@@ -12,7 +12,7 @@ except KeyError:
     
 BASE_URL = 'https://slots.elements.com/'
 SHEET_BASE_URL = BASE_URL + 'sheet.php'
-SHEET_URL = SHEET_BASE_URL + '?studio_id=' + ELEMENTS_STUDIO_ID
+SHEET_URL = SHEET_BASE_URL + '?studio_id=' + str(ELEMENTS_STUDIO_ID)
 
 
 
