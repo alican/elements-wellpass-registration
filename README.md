@@ -21,8 +21,8 @@ To set environment secrets/variable in GitHub, follow these steps:
 | key | Value | Type |
 | --- | --- | --- |
 |ELEMENTS_STUDIO_ID| 62 ( See List below) | variable |
-|ELEMENTS_EMAIL | mail@example.com | secert |
-|ELEMENTS_PASSWORD | yourElementsPasswot | secret |
+|ELEMENTS_EMAIL | mail@example.com | secret |
+|ELEMENTS_PASSWORD | yourElementsPassword | secret |
 
 | Studio | ID | 
 | --- | --- |
