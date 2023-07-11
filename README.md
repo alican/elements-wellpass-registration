@@ -3,7 +3,7 @@
 Element Fitness would like you to register for a slot at their gym a day in advance to be able to train if you have a Wellpass. This is annoying and easy to forget. This script is designed to automate that so you can always stick to your routine.
 
 This script works standalone but you dont need to configure a server to run it daily. The Github Actions pipeline is used to run this script serverless.
-Just fork this repo and set the secrets/variable. The github actions are configured to run every day at 11 o'clock silently. If something goes wrong than the Error message is passed you as E-Mail.
+Just fork this repo and set the secrets/variable. The github actions are configured to run every day at 11 o'clock silently. If something goes wrong than the Error message is passed to you as E-Mail.
 But if they dont changes something on their page, than this script should run without a problem.
 
 
