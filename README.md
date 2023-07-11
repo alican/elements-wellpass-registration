@@ -1,4 +1,4 @@
-# elements-wellpass-registration
+# Elements Wellpass Registration Automation
 
 Element Fitness would like you to register for a slot at their gym a day in advance to be able to train if you have a Wellpass. This is annoying and easy to forget. This script is designed to automate that so you can always stick to your routine.
 
