@@ -15,7 +15,7 @@ To set environment secrets/variable in GitHub, follow these steps:
 3. In the left sidebar, click on "secrets and variables", than on "Actions"
 4. Click on the "New repository secret" button.
 5. Create a Secret for "ELEMENTS_EMAIL" and "ELEMENTS_PASSWORD" with this names and the value.
-6. Go to the Variables Tab and create a Variable for "ELEMENTS_STUDIO_ID" and set your Studio ID with the correct number from the List below 
+6. Create a Secret for "ELEMENTS_STUDIO_ID" and set your Studio ID with the correct number from the List below 
 
 
 | key | Value | Type |
