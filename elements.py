@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 try:
     ELEMENTS_EMAIL = os.environ["ELEMENTS_EMAIL"]
     ELEMENTS_PASSWORD = os.environ["ELEMENTS_PASSWORD"]
-    ELEMENTS_STUDIO_ID = os.environ.get('ELEMENTS_STUDIO_ID', 62)
+    ELEMENTS_STUDIO_ID = os.environ.get('ELEMENTS_STUDIO_ID', 63)
 except KeyError:
     raise Exception('Please set the environment variables ELEMENTS_EMAIL and ELEMENTS_PASSWORD')
     
