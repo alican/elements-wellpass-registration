@@ -1,7 +1,7 @@
 # Elements Wellpass Registration Automation
 
 
-**_NOTE:_**  Recent changes have made it necessary to select a more precise time period for each day. That makes it even more inflexible. The script still works, but so that you can book the slot at the time you want, you have to adjust the cron job. 
+> **_NOTE:_**  Recent changes have made it necessary to select a more precise time period for each day. That makes it even more inflexible. The script still works, but so that you can book the slot at the time you want, you have to adjust the cron job. 
 
 
 
