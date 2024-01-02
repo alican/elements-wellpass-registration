@@ -5,8 +5,8 @@ name: Elements Registration
 
 on:
   schedule:
-    - cron:  '1 16 * * *'
-    # This runs at 10:00 AM UTC each day.
+    - cron:  '1 15 * * *'
+    # This runs at 16:01 AM UTC each day.
     # * is a special character in YAML so you have to quote this string
   workflow_dispatch:
     inputs:
