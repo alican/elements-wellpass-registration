@@ -1,5 +1,10 @@
 # Elements Wellpass Registration Automation
 
+
+**_NOTE:_**  Recent changes have made it necessary to select a more precise time period for each day. That makes it even more inflexible. The script still works, but so that you can book the slot at the time you want, you have to adjust the cron job. 
+
+
+
 Element Fitness would like you to register for a slot at their gym a day in advance to be able to train if you have a Wellpass. This is annoying and easy to forget. This script is designed to automate that so you can always stick to your routine.
 
 This script works standalone but you dont need to configure a server to run it daily. The Github Actions pipeline is used to run this script serverless.
